@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: lightblue;
+}
+
+.wrap {
+    width: 1140px;;
+    margin: 0;
+    outline: 15px solid red;
+}
+
+.center {
+    padding: 0 calc(50% - 1140/2);
+}
+
+
+.header {
+    background-color: #f5eeee;
+    color: rgb(189, 16, 16);
+  
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.block-all{
+    max-width: 1135px;
+    max-height: 800px;
+    border: 5px solid red;
+    position: relative;
+}
+.container {
+   
+    background-color: rgb(187, 128, 52);
+   width: 282px;
+    margin-top: 65px;
+}
+
+.column {
+    display: flex;
+ 
+}
+
+.item-title {
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 30px;
+  
+}
+
+.dowm {
+
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+
+
+
+
+.block-2 {
+    width: 436px;
+    height: 322px;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    text-align: left;
+    background-color:rgb(189, 189, 206);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.text-1 {
+   font-size: 24px;
+   display:inline-block;
+   color: rgb(182, 103, 103);
+    
+}
+.promo {
+    display:inline-block;
+    width: 29px;
+    height: 30px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    color: rgba(31, 32, 65, 0.25);
+
+}
+
+
+.text-one2 {
+    font-size: 19px;
+    display:inline-block;
+    color: rgb(73, 67, 60);
+}
+.h2 {
+  
+    display: inline-block;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: left;
+    color: rgba(21, 21, 22, 0.25);
+
+}
+
+.text-one3{
+ 
+    display: inline-block;
+    width: 301px;
+    height: 48px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.h3{
+
+    font-size: 12px;
+    line-height: 15px;
+    display: inline-block;
+    text-align: right;
+    text-transform: uppercase;
+    color: rgba(31, 32, 65, 0.25);  
+}
+
+
+.text-one4{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+ }
+
+ .h4 {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    color: rgba(31, 32, 65, 0.25);
+    
+ }
